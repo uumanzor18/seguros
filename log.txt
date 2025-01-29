@@ -1,0 +1,42 @@
+[20240605091635] Error: A non-numeric value encountered, nivel: 2, archivo: C:\wamp64\www\seguros\print_formulario.php, linea: 1563
+[20240605092625] x: 10.00125, y: 239.00125
+[20240605092759] x: 10.00125, y: 239.00125
+[20240605094740] x: 10.00125, y: 239.00125
+[20240605102729] x: 10.00125, y: 239.00125
+[20240605103051] x: 10.00125, y: 239.00125
+[20240605103053] The request contained at least one invalid parameter. Integer value expected for parameter: 'xPosition'
+[20240605103053] 
+[20240605103053] Error: Call to a member function display() on null in C:\wamp64\www\seguros\src\Services\SignatureClientService.php:282
+Stack trace:
+#0 C:\wamp64\www\seguros\src\Services\Examples\eSignature\SigningViaEmailService.php(46): DocuSign\Services\SignatureClientService->showErrorTemplate(Object(DocuSign\eSign\Client\ApiException))
+#1 C:\wamp64\www\seguros\print_formulario.php(1659): DocuSign\Services\Examples\eSignature\SigningViaEmailService::signingViaEmail(Array, Object(DocuSign\Services\SignatureClientService), '/../../../../tm...', '42424234.pdf')
+#2 {main}
+[20240605103145] x: 10.00125, y: 239.00125
+[20240605103347] x: 10.00125, y: 239.00125
+[20240605104354] x: 10.00125, y: 239.00125
+[20240605105637] x: 10.00125, y: 239.00125
+[20240605105734] x: 10.00125, y: 239.00125
+[20240605105827] x: 10.00125, y: 239.00125
+[20240605110031] x: 10.00125, y: 239.00125
+[20240605111031] x: 10.00125, y: 239.00125
+[20240605111033] The request body is missing or improperly formatted.
+[20240605111033] 
+[20240605111033] Error: Call to a member function display() on null in C:\wamp64\www\seguros\src\Services\SignatureClientService.php:282
+Stack trace:
+#0 C:\wamp64\www\seguros\src\Services\Examples\eSignature\SigningViaEmailService.php(44): DocuSign\Services\SignatureClientService->showErrorTemplate(Object(DocuSign\eSign\Client\ApiException))
+#1 C:\wamp64\www\seguros\print_formulario.php(1657): DocuSign\Services\Examples\eSignature\SigningViaEmailService::signingViaEmail(Array, Object(DocuSign\Services\SignatureClientService), '%PDF-1.4\n3 0 ob...')
+#2 {main}
+[20240605111141] x: 10.00125, y: 239.00125
+[20240605111544] x: 10.00125, y: 239.00125
+[20240605112357] x: 10.00125, y: 239.00125
+[20240605114406] x: 10.00125, y: 239.00125
+[20240605115033] x: 10.00125, y: 239.00125
+[20240605122125] x: 10.00125, y: 239.00125
+[20240605122644] x: 10.00125, y: 239.00125
+[20240605122946] x: 10.00125, y: 239.00125
+[20240605123203] x: 10.00125, y: 239.00125
+[20240605123421] x: 10.00125, y: 239.00125
+[20240605123534] x: 10.00125, y: 239.00125
+[20240605123617] x: 10.00125, y: 239.00125
+[20240605123708] x: 10.00125, y: 239.00125
+[20240605123802] x: 10.00125, y: 239.00125

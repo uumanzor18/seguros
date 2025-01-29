@@ -1,0 +1,16 @@
+<div class="modal fade" data-backdrop="static" pregunta="0" id="modalPreguntas_{{ID}}" tabindex="-1" role="dialog" aria-labelledby="modalPreguntasTitle" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header"></div>
+            <div class="modal-body">
+                {{PREGUNTAS}}
+                <div id="pagination" class="pagination pagination-sm justify-content-center"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-success" onclick="agregarModalPreguntas(this)">Agregar</button>
+                <button type="button" class="btn btn-sm btn-danger" onclick="eliminarModalPreguntas(this)">Eliminar</button>
+                <button type="button" class="btn btn-sm btn-primary" onclick="validarModalPreguntas(this)">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
