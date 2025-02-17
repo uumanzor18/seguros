@@ -40,3 +40,1124 @@ Stack trace:
 [20240605123617] x: 10.00125, y: 239.00125
 [20240605123708] x: 10.00125, y: 239.00125
 [20240605123802] x: 10.00125, y: 239.00125
+[20250211210812] prueba
+[20250214223419] Error: include(/var/www/html/seguros/fpdf/font/Arialb.php): Failed to open stream: No such file or directory, nivel: 2, archivo: /var/www/html/seguros/fpdf/fpdf.php, linea: 1137
+[20250214223619] Error: Function utf8_decode() is deprecated, nivel: 8192, archivo: /var/www/html/seguros/print_formulario.php, linea: 475
+[20250216101330] Error: Only variables should be passed by reference, nivel: 8, archivo: /var/www/html/seguros/print_formulario.php, linea: 277
+[20250216101842] Error: Undefined property: stdClass::$detalle, nivel: 2, archivo: /var/www/html/seguros/print_formulario.php, linea: 280
+[20250216103830] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [nombre] => Texto de prueba Texto de prueba
+            [diagnostico] => xcsdf
+            [tratamiento] => rtrtrt
+            [fecha] => 2025-02-06
+            [medico] => gggggg
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 25
+            [detalle] => ferfewrfewfwe
+        )
+
+)
+
+[20250216103920] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [nombre] => Texto de prueba Texto de prueba
+            [diagnostico] => xcsdf
+            [tratamiento] => rtrtrt
+            [fecha] => 2025-02-06
+            [medico] => gggggg
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 25
+            [detalle] => ferfewrfewfwe
+        )
+
+)
+
+[20250216103920] 
+[20250216103920] 
+[20250216104021] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [nombre] => Texto de prueba Texto de prueba
+            [diagnostico] => xcsdf
+            [tratamiento] => rtrtrt
+            [fecha] => 2025-02-06
+            [medico] => gggggg
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 25
+            [detalle] => ferfewrfewfwe
+        )
+
+)
+
+[20250216104021] 
+[20250216104021] Error: Undefined property: stdClass::$nombre, nivel: 2, archivo: /var/www/html/seguros/print_formulario.php, linea: 276
+[20250216104157] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [nombre] => Texto de prueba Texto de prueba
+            [diagnostico] => sddsfds
+            [tratamiento] => sdfdsf
+            [fecha] => 2025-02-14
+            [medico] => efewefdef
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 25
+            [detalle] => fefewfewe
+        )
+
+)
+
+[20250216104157] 
+[20250216104157] Error: Undefined property: stdClass::$nombre, nivel: 2, archivo: /var/www/html/seguros/print_formulario.php, linea: 276
+[20250216114443] Error: iconv(): Passing null to parameter #3 ($string) of type string is deprecated, nivel: 8192, archivo: /var/www/html/seguros/print_formulario.php, linea: 417
+[20250216114814] Error: iconv(): Passing null to parameter #3 ($string) of type string is deprecated, nivel: 8192, archivo: /var/www/html/seguros/print_formulario.php, linea: 449
+[20250216114913] Error: iconv(): Passing null to parameter #3 ($string) of type string is deprecated, nivel: 8192, archivo: /var/www/html/seguros/print_formulario.php, linea: 467
+[20250216115151] Error: iconv(): Passing null to parameter #3 ($string) of type string is deprecated, nivel: 8192, archivo: /var/www/html/seguros/print_formulario.php, linea: 474
+[20250216115224] Error: strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated, nivel: 8192, archivo: /var/www/html/seguros/print_formulario.php, linea: 476
+[20250216120242] Error: iconv(): Passing null to parameter #3 ($string) of type string is deprecated, nivel: 8192, archivo: /var/www/html/seguros/print_formulario.php, linea: 504
+[20250216120920] Error: iconv(): Passing null to parameter #3 ($string) of type string is deprecated, nivel: 8192, archivo: /var/www/html/seguros/print_formulario.php, linea: 421
+[20250216121035] Error: iconv(): Passing null to parameter #3 ($string) of type string is deprecated, nivel: 8192, archivo: /var/www/html/seguros/print_formulario.php, linea: 421
+[20250216121057] Error: iconv(): Passing null to parameter #3 ($string) of type string is deprecated, nivel: 8192, archivo: /var/www/html/seguros/print_formulario.php, linea: 421
+[20250216121146] Error: Undefined variable $nombresConyuge, nivel: 2, archivo: /var/www/html/seguros/print_formulario.php, linea: 471
+[20250216121237] Error: iconv(): Passing null to parameter #3 ($string) of type string is deprecated, nivel: 8192, archivo: /var/www/html/seguros/print_formulario.php, linea: 509
+[20250216125637] Error: Undefined variable $otro_seguro, nivel: 2, archivo: /var/www/html/seguros/print_formulario.php, linea: 565
+[20250216131512] Error: Undefined variable $resultT, nivel: 2, archivo: /var/www/html/seguros/print_formulario.php, linea: 638
+[20250216131918] Array
+(
+    [0] => stdClass Object
+        (
+            [nombre] => aaaaa aaa
+            [sexo] => F
+            [parentesco] => 5
+            [peso] => 12
+            [estatura] => 11
+            [fechaNacimiento] => 2010-02-10
+        )
+
+)
+
+[20250216132111] Array
+(
+    [0] => stdClass Object
+        (
+            [nombre] => aaaaaaaaaaaaa
+            [sexo] => F
+            [parentesco] => 5
+            [peso] => 12
+            [estatura] => 11
+            [fechaNacimiento] => 1995-03-09
+            [identidad] => 12345678
+        )
+
+)
+
+[20250216132111] Error: Undefined property: stdClass::$ocupacion, nivel: 2, archivo: /var/www/html/seguros/print_formulario.php, linea: 643
+[20250216133021] Array
+(
+    [0] => stdClass Object
+        (
+            [nombre] => aaaaaaaa
+            [sexo] => F
+            [parentesco] => 5
+            [ocupacion] => dddddddddddd
+            [peso] => 12
+            [estatura] => 13
+            [fechaNacimiento] => 2010-05-04
+            [identidad] => 12345678
+        )
+
+)
+
+[20250216133231] Array
+(
+    [0] => stdClass Object
+        (
+            [nombre] => aaaaaaaa
+            [sexo] => F
+            [parentesco] => 5
+            [ocupacion] => dddddddddddd
+            [peso] => 12
+            [estatura] => 13
+            [fechaNacimiento] => 2010-05-04
+            [identidad] => 12345678
+        )
+
+)
+
+[20250216133231] Error: Undefined property: stdClass::$fecha_nacimiento, nivel: 2, archivo: /var/www/html/seguros/print_formulario.php, linea: 647
+[20250216133307] Array
+(
+    [0] => stdClass Object
+        (
+            [nombre] => aaaaaaaa
+            [sexo] => F
+            [parentesco] => 5
+            [ocupacion] => dddddddddddd
+            [peso] => 12
+            [estatura] => 13
+            [fechaNacimiento] => 2010-05-04
+            [identidad] => 12345678
+        )
+
+)
+
+[20250216134143] Array
+(
+    [0] => stdClass Object
+        (
+            [nombre] => aaaaaaaa
+            [sexo] => F
+            [parentesco] => 5
+            [ocupacion] => dddddddddddd
+            [peso] => 12
+            [estatura] => 13
+            [fechaNacimiento] => 2010-05-04
+            [identidad] => 12345678
+        )
+
+)
+
+[20250216134355] Array
+(
+    [0] => stdClass Object
+        (
+            [nombre] => aaaaaaaa
+            [sexo] => F
+            [parentesco] => 5
+            [ocupacion] => dddddddddddd
+            [peso] => 12
+            [estatura] => 13
+            [fechaNacimiento] => 2010-05-04
+            [identidad] => 12345678
+        )
+
+)
+
+[20250216154149] Array
+(
+    [0] => stdClass Object
+        (
+            [nombre] => aaaaaaaa
+            [sexo] => F
+            [parentesco] => 5
+            [ocupacion] => dddddddddddd
+            [peso] => 12
+            [estatura] => 13
+            [fechaNacimiento] => 2010-05-04
+            [identidad] => 12345678
+        )
+
+)
+
+[20250216154743] Array
+(
+    [0] => stdClass Object
+        (
+            [nombre] => aaaaaaaa
+            [sexo] => F
+            [parentesco] => 5
+            [ocupacion] => dddddddddddd
+            [peso] => 12
+            [estatura] => 13
+            [fechaNacimiento] => 2010-05-04
+            [identidad] => 12345678
+        )
+
+)
+
+[20250216155022] Array
+(
+    [0] => stdClass Object
+        (
+            [nombre] => aaaaaaaa
+            [sexo] => F
+            [parentesco] => 5
+            [ocupacion] => dddddddddddd
+            [peso] => 12
+            [estatura] => 13
+            [fechaNacimiento] => 2010-05-04
+            [identidad] => 12345678
+        )
+
+)
+
+[20250216155515] Array
+(
+    [0] => stdClass Object
+        (
+            [nombre] => aaaaaaaa
+            [sexo] => F
+            [parentesco] => 5
+            [ocupacion] => dddddddddddd
+            [peso] => 12
+            [estatura] => 13
+            [fechaNacimiento] => 2010-05-04
+            [identidad] => 12345678
+        )
+
+)
+
+[20250216155652] Array
+(
+    [0] => stdClass Object
+        (
+            [nombre] => aaaaaaaa
+            [sexo] => F
+            [parentesco] => 5
+            [ocupacion] => dddddddddddd
+            [peso] => 12
+            [estatura] => 13
+            [fechaNacimiento] => 2010-05-04
+            [identidad] => 12345678
+        )
+
+)
+
+[20250216155737] Array
+(
+    [0] => stdClass Object
+        (
+            [nombre] => aaaaaaaa
+            [sexo] => F
+            [parentesco] => 5
+            [ocupacion] => dddddddddddd
+            [peso] => 12
+            [estatura] => 13
+            [fechaNacimiento] => 2010-05-04
+            [identidad] => 12345678
+        )
+
+)
+
+[20250216155758] Array
+(
+    [0] => stdClass Object
+        (
+            [nombre] => aaaaaaaa
+            [sexo] => F
+            [parentesco] => 5
+            [ocupacion] => dddddddddddd
+            [peso] => 12
+            [estatura] => 13
+            [fechaNacimiento] => 2010-05-04
+            [identidad] => 12345678
+        )
+
+)
+
+[20250216160330] Array
+(
+    [0] => stdClass Object
+        (
+            [nombre] => aaaaaaaa
+            [sexo] => F
+            [parentesco] => 5
+            [ocupacion] => dddddddddddd
+            [peso] => 12
+            [estatura] => 13
+            [fechaNacimiento] => 2010-05-04
+            [identidad] => 12345678
+        )
+
+)
+
+[20250216160520] Array
+(
+    [0] => stdClass Object
+        (
+            [nombre] => aaaaaaaa
+            [sexo] => F
+            [parentesco] => 5
+            [ocupacion] => dddddddddddd
+            [peso] => 12
+            [estatura] => 13
+            [fechaNacimiento] => 2010-05-04
+            [identidad] => 12345678
+        )
+
+)
+
+[20250217082332] Array
+(
+)
+
+[20250217083303] Array
+(
+)
+
+[20250217083505] Array
+(
+)
+
+[20250217083704] Array
+(
+)
+
+[20250217090317] Array
+(
+)
+
+[20250217090348] Array
+(
+)
+
+[20250217090505] Array
+(
+)
+
+[20250217090520] Array
+(
+)
+
+[20250217090710] Array
+(
+)
+
+[20250217091328] Array
+(
+)
+
+[20250217091328] Error: Undefined variable $x, nivel: 2, archivo: /var/www/html/seguros/print_formulario.php, linea: 68
+[20250217091419] Array
+(
+)
+
+[20250217091510] Array
+(
+)
+
+[20250217092118] Array
+(
+)
+
+[20250217092640] Array
+(
+)
+
+[20250217092717] Array
+(
+)
+
+[20250217092750] Array
+(
+)
+
+[20250217092914] Array
+(
+)
+
+[20250217092953] Array
+(
+)
+
+[20250217093357] Array
+(
+)
+
+[20250217093422] Array
+(
+)
+
+[20250217093533] Array
+(
+)
+
+[20250217093613] Array
+(
+)
+
+[20250217093621] Array
+(
+)
+
+[20250217093849] Array
+(
+)
+
+[20250217095154] Array
+(
+)
+
+[20250217100132] Array
+(
+)
+
+[20250217100210] Array
+(
+)
+
+[20250217100353] Array
+(
+)
+
+[20250217100409] Array
+(
+)
+
+[20250217100711] Array
+(
+)
+
+[20250217100848] Array
+(
+)
+
+[20250217100929] Array
+(
+)
+
+[20250217102219] Array
+(
+)
+
+[20250217102653] Array
+(
+)
+
+[20250217102746] Array
+(
+)
+
+[20250217102746] Error: Function utf8_decode() is deprecated, nivel: 8192, archivo: /var/www/html/seguros/print_formulario.php, linea: 66
+[20250217102824] Array
+(
+)
+
+[20250217102909] Array
+(
+)
+
+[20250217103242] Array
+(
+)
+
+[20250217103512] Array
+(
+)
+
+[20250217103604] Array
+(
+)
+
+[20250217103652] Array
+(
+)
+
+[20250217103711] Array
+(
+)
+
+[20250217103826] Array
+(
+)
+
+[20250217104109] Array
+(
+)
+
+[20250217104141] Array
+(
+)
+
+[20250217105035] Array
+(
+)
+
+[20250217105057] Array
+(
+)
+
+[20250217105350] Array
+(
+)
+
+[20250217105451] Array
+(
+)
+
+[20250217105516] Array
+(
+)
+
+[20250217110141] Array
+(
+)
+
+[20250217110433] Array
+(
+)
+
+[20250217110501] Array
+(
+)
+
+[20250217110720] Array
+(
+)
+
+[20250217110845] Array
+(
+)
+
+[20250217110943] Array
+(
+)
+
+[20250217111015] Array
+(
+)
+
+[20250217111042] Array
+(
+)
+
+[20250217111101] Array
+(
+)
+
+[20250217111121] Array
+(
+)
+
+[20250217111136] Array
+(
+)
+
+[20250217111149] Array
+(
+)
+
+[20250217111155] Array
+(
+)
+
+[20250217111326] Array
+(
+)
+
+[20250217111713] Array
+(
+)
+
+[20250217111854] Array
+(
+)
+
+[20250217111919] Array
+(
+)
+
+[20250217111939] Array
+(
+)
+
+[20250217112018] Array
+(
+)
+
+[20250217112057] Array
+(
+)
+
+[20250217112139] Array
+(
+)
+
+[20250217112152] Array
+(
+)
+
+[20250217112204] Array
+(
+)
+
+[20250217112240] Array
+(
+)
+
+[20250217112341] Array
+(
+)
+
+[20250217112454] Array
+(
+)
+
+[20250217112530] Array
+(
+)
+
+[20250217112550] Array
+(
+)
+
+[20250217112600] Array
+(
+)
+
+[20250217112639] Array
+(
+)
+
+[20250217112756] Array
+(
+)
+
+[20250217112815] Array
+(
+)
+
+[20250217112829] Array
+(
+)
+
+[20250217112851] Array
+(
+)
+
+[20250217112928] Array
+(
+)
+
+[20250217112947] Array
+(
+)
+
+[20250217113020] Array
+(
+)
+
+[20250217113033] Array
+(
+)
+
+[20250217113043] Array
+(
+)
+
+[20250217114038] Array
+(
+)
+
+[20250217114312] Array
+(
+)
+
+[20250217114350] Array
+(
+)
+
+[20250217114533] Array
+(
+)
+
+[20250217114609] Array
+(
+)
+
+[20250217114727] Array
+(
+)
+
+[20250217114819] Array
+(
+)
+
+[20250217114844] Array
+(
+)
+
+[20250217114907] Array
+(
+)
+
+[20250217114919] Array
+(
+)
+
+[20250217114929] Array
+(
+)
+
+[20250217115020] Array
+(
+)
+
+[20250217115037] Array
+(
+)
+
+[20250217115138] Array
+(
+)
+
+[20250217115230] Array
+(
+)
+
+[20250217115248] Array
+(
+)
+
+[20250217115333] Array
+(
+)
+
+[20250217115438] Array
+(
+)
+
+[20250217115456] Array
+(
+)
+
+[20250217115946] Array
+(
+)
+
+[20250217115946] inicio: 98.00125 fin: 98.00125 altura: 10
+[20250217115946] inicio: 123.00125 fin: 123.00125 altura: 10
+[20250217115946] inicio: 153.00125 fin: 153.00125 altura: 15
+[20250217115946] inicio: 173.00125 fin: 173.00125 altura: 5
+[20250217115946] inicio: 198.00125 fin: 198.00125 altura: 10
+[20250217115946] inicio: 218.00125 fin: 218.00125 altura: 5
+[20250217115946] inicio: 243.00125 fin: 243.00125 altura: 10
+[20250217115946] inicio: 20.00125 fin: 20.00125 altura: -243
+[20250217115946] inicio: 40.00125 fin: 40.00125 altura: 5
+[20250217115946] inicio: 65.00125 fin: 65.00125 altura: 10
+[20250217115946] inicio: 85.00125 fin: 85.00125 altura: 5
+[20250217115946] inicio: 105.00125 fin: 105.00125 altura: 5
+[20250217115946] inicio: 125.00125 fin: 125.00125 altura: 5
+[20250217115946] inicio: 145.00125 fin: 145.00125 altura: 5
+[20250217115946] inicio: 165.00125 fin: 165.00125 altura: 5
+[20250217115946] inicio: 190.00125 fin: 190.00125 altura: 10
+[20250217115946] inicio: 210.00125 fin: 210.00125 altura: 5
+[20250217115946] inicio: 230.00125 fin: 230.00125 altura: 5
+[20250217115946] inicio: 20.00125 fin: 20.00125 altura: -240
+[20250217115946] inicio: 45.00125 fin: 45.00125 altura: 10
+[20250217115946] inicio: 70.00125 fin: 70.00125 altura: 10
+[20250217115946] inicio: 95.00125 fin: 95.00125 altura: 10
+[20250217115946] inicio: 120.00125 fin: 120.00125 altura: 10
+[20250217120029] Array
+(
+)
+
+[20250217120029] inicio: 88.00125 fin: 98.00125 altura: 10
+[20250217120029] inicio: 113.00125 fin: 123.00125 altura: 10
+[20250217120029] inicio: 138.00125 fin: 153.00125 altura: 15
+[20250217120029] inicio: 168.00125 fin: 173.00125 altura: 5
+[20250217120029] inicio: 188.00125 fin: 198.00125 altura: 10
+[20250217120029] inicio: 213.00125 fin: 218.00125 altura: 5
+[20250217120029] inicio: 233.00125 fin: 243.00125 altura: 10
+[20250217120029] inicio: 263.00125 fin: 20.00125 altura: -243
+[20250217120029] inicio: 35.00125 fin: 40.00125 altura: 5
+[20250217120029] inicio: 55.00125 fin: 65.00125 altura: 10
+[20250217120029] inicio: 80.00125 fin: 85.00125 altura: 5
+[20250217120029] inicio: 100.00125 fin: 105.00125 altura: 5
+[20250217120029] inicio: 120.00125 fin: 125.00125 altura: 5
+[20250217120029] inicio: 140.00125 fin: 145.00125 altura: 5
+[20250217120029] inicio: 160.00125 fin: 165.00125 altura: 5
+[20250217120029] inicio: 180.00125 fin: 190.00125 altura: 10
+[20250217120029] inicio: 205.00125 fin: 210.00125 altura: 5
+[20250217120029] inicio: 225.00125 fin: 230.00125 altura: 5
+[20250217120029] inicio: 260.00125 fin: 20.00125 altura: -240
+[20250217120029] inicio: 35.00125 fin: 45.00125 altura: 10
+[20250217120029] inicio: 60.00125 fin: 70.00125 altura: 10
+[20250217120029] inicio: 85.00125 fin: 95.00125 altura: 10
+[20250217120029] inicio: 110.00125 fin: 120.00125 altura: 10
+[20250217120537] Array
+(
+)
+
+[20250217120549] Array
+(
+)
+
+[20250217120549] inicio: 10 fin: 20 altura: 10
+[20250217120549] inicio: 10 fin: 20 altura: 10
+[20250217120549] inicio: 10 fin: 25 altura: 15
+[20250217120549] inicio: 10 fin: 15 altura: 5
+[20250217120549] inicio: 10 fin: 20 altura: 10
+[20250217120549] inicio: 10 fin: 15 altura: 5
+[20250217120549] inicio: 10 fin: 20 altura: 10
+[20250217120549] inicio: 10 fin: 20 altura: 10
+[20250217120549] inicio: 10 fin: 15 altura: 5
+[20250217120549] inicio: 10 fin: 20 altura: 10
+[20250217120549] inicio: 10 fin: 15 altura: 5
+[20250217120549] inicio: 10 fin: 15 altura: 5
+[20250217120549] inicio: 10 fin: 15 altura: 5
+[20250217120549] inicio: 10 fin: 15 altura: 5
+[20250217120549] inicio: 10 fin: 15 altura: 5
+[20250217120549] inicio: 10 fin: 20 altura: 10
+[20250217120549] inicio: 10 fin: 15 altura: 5
+[20250217120549] inicio: 10 fin: 15 altura: 5
+[20250217120549] inicio: 10 fin: 20 altura: 10
+[20250217120549] inicio: 10 fin: 20 altura: 10
+[20250217120549] inicio: 10 fin: 20 altura: 10
+[20250217120549] inicio: 10 fin: 20 altura: 10
+[20250217120549] inicio: 10 fin: 20 altura: 10
+[20250217120637] Array
+(
+)
+
+[20250217120637] inicio: 88.00125 fin: 98.00125 altura: 10
+[20250217120637] inicio: 113.00125 fin: 123.00125 altura: 10
+[20250217120637] inicio: 138.00125 fin: 153.00125 altura: 15
+[20250217120637] inicio: 168.00125 fin: 173.00125 altura: 5
+[20250217120637] inicio: 188.00125 fin: 198.00125 altura: 10
+[20250217120637] inicio: 213.00125 fin: 218.00125 altura: 5
+[20250217120637] inicio: 233.00125 fin: 243.00125 altura: 10
+[20250217120637] inicio: 10 fin: 20 altura: 10
+[20250217120637] inicio: 35 fin: 40 altura: 5
+[20250217120637] inicio: 55 fin: 65 altura: 10
+[20250217120637] inicio: 80 fin: 85 altura: 5
+[20250217120637] inicio: 100 fin: 105 altura: 5
+[20250217120637] inicio: 120 fin: 125 altura: 5
+[20250217120637] inicio: 140 fin: 145 altura: 5
+[20250217120637] inicio: 160 fin: 165 altura: 5
+[20250217120637] inicio: 180 fin: 190 altura: 10
+[20250217120637] inicio: 205 fin: 210 altura: 5
+[20250217120637] inicio: 225 fin: 230 altura: 5
+[20250217120637] inicio: 260 fin: 20.00125 altura: -239.99875
+[20250217120637] inicio: 35.00125 fin: 45.00125 altura: 10
+[20250217120637] inicio: 60.00125 fin: 70.00125 altura: 10
+[20250217120637] inicio: 85.00125 fin: 95.00125 altura: 10
+[20250217120637] inicio: 110.00125 fin: 120.00125 altura: 10
+[20250217120700] Array
+(
+)
+
+[20250217120700] inicio: 88.00125 fin: 98.00125 altura: 10
+[20250217120700] inicio: 113.00125 fin: 123.00125 altura: 10
+[20250217120700] inicio: 138.00125 fin: 153.00125 altura: 15
+[20250217120700] inicio: 168.00125 fin: 173.00125 altura: 5
+[20250217120700] inicio: 188.00125 fin: 198.00125 altura: 10
+[20250217120700] inicio: 213.00125 fin: 218.00125 altura: 5
+[20250217120700] inicio: 233.00125 fin: 243.00125 altura: 10
+[20250217120700] inicio: 10 fin: 20 altura: 10
+[20250217120700] inicio: 35 fin: 40 altura: 5
+[20250217120700] inicio: 55 fin: 65 altura: 10
+[20250217120700] inicio: 80 fin: 85 altura: 5
+[20250217120700] inicio: 100 fin: 105 altura: 5
+[20250217120700] inicio: 120 fin: 125 altura: 5
+[20250217120700] inicio: 140 fin: 145 altura: 5
+[20250217120700] inicio: 160 fin: 165 altura: 5
+[20250217120700] inicio: 180 fin: 190 altura: 10
+[20250217120700] inicio: 205 fin: 210 altura: 5
+[20250217120700] inicio: 225 fin: 230 altura: 5
+[20250217120700] inicio: 245 fin: 255 altura: 10
+[20250217120700] inicio: 20.00125 fin: 30.00125 altura: 10
+[20250217120700] inicio: 45.00125 fin: 55.00125 altura: 10
+[20250217120700] inicio: 70.00125 fin: 80.00125 altura: 10
+[20250217120700] inicio: 95.00125 fin: 105.00125 altura: 10
+[20250217120740] Array
+(
+)
+
+[20250217120740] inicio: 88.00125 fin: 98.00125 altura: 10
+[20250217120740] inicio: 113.00125 fin: 123.00125 altura: 10
+[20250217120740] inicio: 138.00125 fin: 153.00125 altura: 15
+[20250217120740] inicio: 168.00125 fin: 173.00125 altura: 5
+[20250217120740] inicio: 188.00125 fin: 198.00125 altura: 10
+[20250217120740] inicio: 213.00125 fin: 218.00125 altura: 5
+[20250217120740] inicio: 233.00125 fin: 243.00125 altura: 10
+[20250217120740] inicio: 263.00125 fin: 20.00125 altura: -243
+[20250217120740] inicio: 35.00125 fin: 40.00125 altura: 5
+[20250217120740] inicio: 55.00125 fin: 65.00125 altura: 10
+[20250217120740] inicio: 80.00125 fin: 85.00125 altura: 5
+[20250217120740] inicio: 100.00125 fin: 105.00125 altura: 5
+[20250217120740] inicio: 120.00125 fin: 125.00125 altura: 5
+[20250217120740] inicio: 140.00125 fin: 145.00125 altura: 5
+[20250217120740] inicio: 160.00125 fin: 165.00125 altura: 5
+[20250217120740] inicio: 180.00125 fin: 190.00125 altura: 10
+[20250217120740] inicio: 205.00125 fin: 210.00125 altura: 5
+[20250217120740] inicio: 225.00125 fin: 230.00125 altura: 5
+[20250217120740] inicio: 260.00125 fin: 20.00125 altura: -240
+[20250217120740] inicio: 35.00125 fin: 45.00125 altura: 10
+[20250217120740] inicio: 60.00125 fin: 70.00125 altura: 10
+[20250217120740] inicio: 85.00125 fin: 95.00125 altura: 10
+[20250217120740] inicio: 110.00125 fin: 120.00125 altura: 10
+[20250217120839] Array
+(
+)
+
+[20250217120839] inicio: 88.00125 fin: 98.00125 altura: 10
+[20250217120839] inicio: 113.00125 fin: 123.00125 altura: 10
+[20250217120839] inicio: 138.00125 fin: 153.00125 altura: 15
+[20250217120839] inicio: 168.00125 fin: 173.00125 altura: 5
+[20250217120839] inicio: 188.00125 fin: 198.00125 altura: 10
+[20250217120839] inicio: 213.00125 fin: 218.00125 altura: 5
+[20250217120839] inicio: 233.00125 fin: 243.00125 altura: 10
+[20250217120839] inicio: 10.00125 fin: 20.00125 altura: 10
+[20250217120839] inicio: 35.00125 fin: 40.00125 altura: 5
+[20250217120839] inicio: 55.00125 fin: 65.00125 altura: 10
+[20250217120839] inicio: 80.00125 fin: 85.00125 altura: 5
+[20250217120839] inicio: 100.00125 fin: 105.00125 altura: 5
+[20250217120839] inicio: 120.00125 fin: 125.00125 altura: 5
+[20250217120839] inicio: 140.00125 fin: 145.00125 altura: 5
+[20250217120839] inicio: 160.00125 fin: 165.00125 altura: 5
+[20250217120839] inicio: 180.00125 fin: 190.00125 altura: 10
+[20250217120839] inicio: 205.00125 fin: 210.00125 altura: 5
+[20250217120839] inicio: 225.00125 fin: 230.00125 altura: 5
+[20250217120839] inicio: 260.00125 fin: 20.00125 altura: -240
+[20250217120839] inicio: 35.00125 fin: 45.00125 altura: 10
+[20250217120839] inicio: 60.00125 fin: 70.00125 altura: 10
+[20250217120839] inicio: 85.00125 fin: 95.00125 altura: 10
+[20250217120839] inicio: 110.00125 fin: 120.00125 altura: 10
+[20250217120922] Array
+(
+)
+
+[20250217120922] inicio: 88.00125 fin: 98.00125 altura: 10
+[20250217120922] inicio: 113.00125 fin: 123.00125 altura: 10
+[20250217120922] inicio: 138.00125 fin: 153.00125 altura: 15
+[20250217120922] inicio: 168.00125 fin: 173.00125 altura: 5
+[20250217120922] inicio: 188.00125 fin: 198.00125 altura: 10
+[20250217120922] inicio: 213.00125 fin: 218.00125 altura: 5
+[20250217120922] inicio: 233.00125 fin: 243.00125 altura: 10
+[20250217120922] inicio: 10.00125 fin: 20.00125 altura: 10
+[20250217120922] inicio: 35.00125 fin: 40.00125 altura: 5
+[20250217120922] inicio: 55.00125 fin: 65.00125 altura: 10
+[20250217120922] inicio: 80.00125 fin: 85.00125 altura: 5
+[20250217120922] inicio: 100.00125 fin: 105.00125 altura: 5
+[20250217120922] inicio: 120.00125 fin: 125.00125 altura: 5
+[20250217120922] inicio: 140.00125 fin: 145.00125 altura: 5
+[20250217120922] inicio: 160.00125 fin: 165.00125 altura: 5
+[20250217120922] inicio: 180.00125 fin: 190.00125 altura: 10
+[20250217120922] inicio: 205.00125 fin: 210.00125 altura: 5
+[20250217120922] inicio: 225.00125 fin: 230.00125 altura: 5
+[20250217120922] inicio: 245.00125 fin: 255.00125 altura: 10
+[20250217120922] inicio: 20.00125 fin: 30.00125 altura: 10
+[20250217120922] inicio: 45.00125 fin: 55.00125 altura: 10
+[20250217120922] inicio: 70.00125 fin: 80.00125 altura: 10
+[20250217120922] inicio: 95.00125 fin: 105.00125 altura: 10
+[20250217121023] Array
+(
+)
+
+[20250217121023] inicio: 88.00125 fin: 98.00125 altura: 10
+[20250217121023] inicio: 113.00125 fin: 123.00125 altura: 10
+[20250217121023] inicio: 138.00125 fin: 153.00125 altura: 15
+[20250217121023] inicio: 168.00125 fin: 173.00125 altura: 5
+[20250217121023] inicio: 188.00125 fin: 198.00125 altura: 10
+[20250217121023] inicio: 213.00125 fin: 218.00125 altura: 5
+[20250217121023] inicio: 233.00125 fin: 243.00125 altura: 10
+[20250217121023] inicio: 10.00125 fin: 20.00125 altura: 10
+[20250217121023] inicio: 35.00125 fin: 40.00125 altura: 5
+[20250217121023] inicio: 55.00125 fin: 65.00125 altura: 10
+[20250217121023] inicio: 80.00125 fin: 85.00125 altura: 5
+[20250217121023] inicio: 100.00125 fin: 105.00125 altura: 5
+[20250217121023] inicio: 120.00125 fin: 125.00125 altura: 5
+[20250217121023] inicio: 140.00125 fin: 145.00125 altura: 5
+[20250217121023] inicio: 160.00125 fin: 165.00125 altura: 5
+[20250217121023] inicio: 180.00125 fin: 190.00125 altura: 10
+[20250217121023] inicio: 205.00125 fin: 210.00125 altura: 5
+[20250217121023] inicio: 225.00125 fin: 230.00125 altura: 5
+[20250217121023] inicio: 245.00125 fin: 255.00125 altura: 10
+[20250217121023] inicio: 20.00125 fin: 30.00125 altura: 10
+[20250217121023] inicio: 45.00125 fin: 55.00125 altura: 10
+[20250217121023] inicio: 70.00125 fin: 80.00125 altura: 10
+[20250217121023] inicio: 95.00125 fin: 105.00125 altura: 10
+[20250217121130] Array
+(
+)
+
+[20250217121130] inicio: 88.00125 fin: 98.00125 altura: 10
+[20250217121130] inicio: 113.00125 fin: 123.00125 altura: 10
+[20250217121130] inicio: 138.00125 fin: 153.00125 altura: 15
+[20250217121130] inicio: 168.00125 fin: 173.00125 altura: 5
+[20250217121130] inicio: 188.00125 fin: 198.00125 altura: 10
+[20250217121130] inicio: 213.00125 fin: 218.00125 altura: 5
+[20250217121130] inicio: 233.00125 fin: 243.00125 altura: 10
+[20250217121130] inicio: 10.00125 fin: 20.00125 altura: 10
+[20250217121130] inicio: 35.00125 fin: 40.00125 altura: 5
+[20250217121130] inicio: 55.00125 fin: 65.00125 altura: 10
+[20250217121130] inicio: 80.00125 fin: 85.00125 altura: 5
+[20250217121130] inicio: 100.00125 fin: 105.00125 altura: 5
+[20250217121130] inicio: 120.00125 fin: 125.00125 altura: 5
+[20250217121130] inicio: 140.00125 fin: 145.00125 altura: 5
+[20250217121130] inicio: 160.00125 fin: 165.00125 altura: 5
+[20250217121130] inicio: 180.00125 fin: 190.00125 altura: 10
+[20250217121130] inicio: 205.00125 fin: 210.00125 altura: 5
+[20250217121130] inicio: 225.00125 fin: 230.00125 altura: 5
+[20250217121130] inicio: 245.00125 fin: 255.00125 altura: 10
+[20250217121130] inicio: 270.00125 fin: 280.00125 altura: 10
+[20250217121130] inicio: 25.00125 fin: 35.00125 altura: 10
+[20250217121130] inicio: 50.00125 fin: 60.00125 altura: 10
+[20250217121130] inicio: 75.00125 fin: 85.00125 altura: 10
+[20250217121202] Array
+(
+)
+
+[20250217121202] inicio: 88.00125 fin: 98.00125 altura: 10
+[20250217121202] inicio: 113.00125 fin: 123.00125 altura: 10
+[20250217121202] inicio: 138.00125 fin: 153.00125 altura: 15
+[20250217121202] inicio: 168.00125 fin: 173.00125 altura: 5
+[20250217121202] inicio: 188.00125 fin: 198.00125 altura: 10
+[20250217121202] inicio: 213.00125 fin: 218.00125 altura: 5
+[20250217121202] inicio: 233.00125 fin: 243.00125 altura: 10
+[20250217121202] inicio: 10.00125 fin: 20.00125 altura: 10
+[20250217121202] inicio: 35.00125 fin: 40.00125 altura: 5
+[20250217121202] inicio: 55.00125 fin: 65.00125 altura: 10
+[20250217121202] inicio: 80.00125 fin: 85.00125 altura: 5
+[20250217121202] inicio: 100.00125 fin: 105.00125 altura: 5
+[20250217121202] inicio: 120.00125 fin: 125.00125 altura: 5
+[20250217121202] inicio: 140.00125 fin: 145.00125 altura: 5
+[20250217121202] inicio: 160.00125 fin: 165.00125 altura: 5
+[20250217121202] inicio: 180.00125 fin: 190.00125 altura: 10
+[20250217121202] inicio: 205.00125 fin: 210.00125 altura: 5
+[20250217121202] inicio: 225.00125 fin: 230.00125 altura: 5
+[20250217121202] inicio: 10.00125 fin: 20.00125 altura: 10
+[20250217121202] inicio: 35.00125 fin: 45.00125 altura: 10
+[20250217121202] inicio: 60.00125 fin: 70.00125 altura: 10
+[20250217121202] inicio: 85.00125 fin: 95.00125 altura: 10
+[20250217121202] inicio: 110.00125 fin: 120.00125 altura: 10
+[20250217122149] Array
+(
+)
+
+[20250217122149] inicio: 88.00125 fin: 98.00125 altura: 10
+[20250217122149] inicio: 113.00125 fin: 123.00125 altura: 10
+[20250217122149] inicio: 138.00125 fin: 153.00125 altura: 15
+[20250217122149] inicio: 168.00125 fin: 173.00125 altura: 5
+[20250217122149] inicio: 188.00125 fin: 198.00125 altura: 10
+[20250217122149] inicio: 213.00125 fin: 218.00125 altura: 5
+[20250217122149] inicio: 233.00125 fin: 243.00125 altura: 10
+[20250217122149] inicio: 10.00125 fin: 20.00125 altura: 10
+[20250217122149] inicio: 35.00125 fin: 40.00125 altura: 5
+[20250217122149] inicio: 55.00125 fin: 65.00125 altura: 10
+[20250217122149] inicio: 80.00125 fin: 85.00125 altura: 5
+[20250217122149] inicio: 100.00125 fin: 105.00125 altura: 5
+[20250217122149] inicio: 120.00125 fin: 125.00125 altura: 5
+[20250217122149] inicio: 140.00125 fin: 145.00125 altura: 5
+[20250217122149] inicio: 160.00125 fin: 165.00125 altura: 5
+[20250217122149] inicio: 180.00125 fin: 190.00125 altura: 10
+[20250217122149] inicio: 205.00125 fin: 210.00125 altura: 5
+[20250217122149] inicio: 225.00125 fin: 230.00125 altura: 5
+[20250217122149] inicio: 10.00125 fin: 20.00125 altura: 10
+[20250217122149] inicio: 35.00125 fin: 45.00125 altura: 10
+[20250217122149] inicio: 60.00125 fin: 70.00125 altura: 10
+[20250217122149] inicio: 85.00125 fin: 95.00125 altura: 10
+[20250217122149] inicio: 110.00125 fin: 120.00125 altura: 10

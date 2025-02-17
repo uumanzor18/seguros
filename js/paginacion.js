@@ -1,90 +1,57 @@
-$(document).ready(function() {
-    var divisionPaginas = 0;
-    // Número de filas por página
-    var paginaActual = 1;
-  
-    // Oculta todas las filas y luego muestra solo las de la página actual
-    function mostrarFilasPagina(numeroPagina) {
-        if ($('#tablaPreguntas tbody tr[seccion="' + numeroPagina + '"]').length) {
-            $('#tablaPreguntas tbody tr').hide();
-            $('#tablaPreguntas tbody tr[seccion="' + numeroPagina + '"]').show();
-            actualizarBotones();
-        }
-    }
-  
-    // Calcula el número de páginas y genera los enlaces de paginación
-    function generarPaginacion() {
-        $('#tablaPreguntas tbody tr').each(function(i) {
-            var seccionActual = parseInt($(this).attr('seccion'));
-            if (seccionActual > divisionPaginas) {
-                divisionPaginas = seccionActual;
-            }
-        });
-        var totalPaginas = divisionPaginas;
-      
-        $('#paginacion').empty();
-        $('#paginacion').append('<li class="page-item"><a class="page-link" href="#" id="anterior"><</a></li>');
-        for (var i = 1; i <= totalPaginas; i++) {
-            if (i === paginaActual) {
-                $('#paginacion').append('<li class="page-item active current-page hide-on-small-screen2"><a class="page-link" href="#">' + i + '</a></li>');
-            } else {
-                $('#paginacion').append('<li class="page-item hide-on-small-screen2"><a class="page-link" href="#">' + i + '</a></li>');
-            }
-        }
-        $('#paginacion').append('<li class="page-item"><a class="page-link" href="#" id="siguiente">></a></li>');
-  
-        // Añade eventos de clic a los enlaces de paginación
-        $('#paginacion li').click(function() {
-            if (!$(this).hasClass("disabled")) {
-                var contenido = $(this).text();
-                //paginaActual = parseInt($("#paginacion li.active").text());
-                if (contenido === "<") {
-                    paginaActual = paginaActual -1;
-                    var liElement = $('ul.pagination li:has(a.page-link:contains("'+paginaActual+'"))');
-                    if (liElement.hasClass("disabled")) {
-                        paginaActual = paginaActual -1;
-                    }
-                    mostrarFilasPagina(paginaActual);
-                } else if (contenido === ">") {
-                    paginaActual = paginaActual + 1;
-                    var liElement = $('ul.pagination li:has(a.page-link:contains("'+paginaActual+'"))');
-                    if (liElement.hasClass("disabled")) {
-                        paginaActual = paginaActual +1;
-                    }
-                    mostrarFilasPagina(paginaActual);
-                } else {
-                    contenido = parseInt(contenido);
-                    paginaActual = contenido
-                    mostrarFilasPagina(parseInt(contenido));
-                }
+$(document).ready(function () {
+    const filasPorPagina = 5;
+    let paginaActual = 1;
 
-            }
-        });
-  
-        // Muestra la primera página por defecto
+    function mostrarFilasPagina(numeroPagina) {
+        const filas = $('#tablaPreguntas tbody tr');
+        const totalFilas = filas.length;
+        const inicio = (numeroPagina - 1) * filasPorPagina;
+        const fin = inicio + filasPorPagina;
+
+        filas.hide().slice(inicio, fin).show();
+        actualizarBotones(totalFilas);
+    }
+
+    function generarPaginacion() {
+        const totalFilas = $('#tablaPreguntas tbody tr').length;
+        const totalPaginas = Math.ceil(totalFilas / filasPorPagina);
+
+        let paginacionHTML = `<li class="page-item"><a class="page-link" href="#" id="anterior">&lt;</a></li>`;
+        for (let i = 1; i <= totalPaginas; i++) {
+            paginacionHTML += `<li class="page-item ${i === 1 ? "active" : ""}">
+                                   <a class="page-link" href="#">${i}</a>
+                               </li>`;
+        }
+        paginacionHTML += `<li class="page-item"><a class="page-link" href="#" id="siguiente">&gt;</a></li>`;
+
+        $('#paginacion').html(paginacionHTML);
         mostrarFilasPagina(1);
     }
-  
-    // Actualiza el estado de los botones "Anterior" y "Siguiente"
-    function actualizarBotones() {
-        if (paginaActual === 1) {
-            $('#anterior').parent().addClass('disabled');
-        } else {
-            $('#anterior').parent().removeClass('disabled');
-        }
-  
-        var totalPaginas = divisionPaginas;
-        if (paginaActual == totalPaginas || totalPaginas == 0) {
-            $('#siguiente').parent().addClass('disabled');
-        } else {
-            $('#siguiente').parent().removeClass('disabled');
-        }
-    
-        // Actualiza la clase "active" para resaltar la página actual
+
+    function actualizarBotones(totalFilas) {
+        const totalPaginas = Math.ceil(totalFilas / filasPorPagina);
+
+        $('#anterior').parent().toggleClass('disabled', paginaActual === 1);
+        $('#siguiente').parent().toggleClass('disabled', paginaActual === totalPaginas);
+
         $('#paginacion li').removeClass('active');
-        $('#paginacion li:contains(' + paginaActual + ')').addClass('active');
+        $(`#paginacion li:has(a.page-link:contains(${paginaActual}))`).addClass('active');
     }
-  
-    // Genera la paginación al cargar la página
+
+    $('#paginacion').on('click', 'li a.page-link', function (e) {
+        e.preventDefault();
+        let contenido = $(this).text();
+
+        if (contenido === "<" && paginaActual > 1) {
+            paginaActual--;
+        } else if (contenido === ">" && paginaActual < Math.ceil($('#tablaPreguntas tbody tr').length / filasPorPagina)) {
+            paginaActual++;
+        } else if (!isNaN(contenido)) {
+            paginaActual = parseInt(contenido);
+        }
+
+        mostrarFilasPagina(paginaActual);
+    });
+
     generarPaginacion();
-  });
+});
